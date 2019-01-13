@@ -28,7 +28,7 @@
     <script src="./js/jquery.min.js"></script>
     <style>
         .view_field {
-            height: 710px;
+            height: 700px;
             width: 880px;
             margin: 0 auto;
             overflow: hidden;
