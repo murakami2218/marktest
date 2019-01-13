@@ -28,7 +28,7 @@
     <script src="./js/jquery.min.js"></script>
     <style>
         .view_field {
-            height: 650px;
+            height: 710px;
             width: 880px;
             margin: 0 auto;
             overflow: hidden;
@@ -38,6 +38,7 @@
             text-align: left;
         }
         .nav-link-right {
+            float: right;
             text-align: right;
         }
         .submit-button {
@@ -60,13 +61,15 @@
         </p>
         <br>
         <br>
+        <br>
+        <br>
         <div style="width: 550px; margin: 88px auto;">
             <table>
                 <tr>
                     <td>【1】</td>
                     <td>
                         <?php
-                        radioCreate("1-1");
+                        radioCreate("1");
                         ?>
                     </td>
                 </tr>
@@ -74,7 +77,7 @@
                     <td>【2】</td>
                     <td>
                         <?php
-                        radioCreate("1-2");
+                        radioCreate("2");
                         ?>
                     </td>
                 </tr>
@@ -90,33 +93,36 @@
         <h1>平方完成No.1</h1>
         <p style="font-size: 18px;">次の2次関数を平方関数せよ。</p><br>
         <p style="padding:0 0 0 37px;">(2)</p>
-        <p>$$\begin{array}{rcl}y &=& x^{2}+4x-1 \\
-            &=& (x+\fbox{ 1 })^{2}-\fbox{ 2 } \end{array}$$
+        <p>
+        $$\begin{array}{rcl}y &=& 2x^{2}-4x+3 \\
+            &=& 2(x-\fbox{ 3 })^{2}+\fbox{ 4 } \end{array}$$
         </p>
+        <br>
+        <br>
         <br>
         <br>
         <div style="width: 550px; margin: 88px auto;">
             <table>
                 <tr>
-                    <td>【1】</td>
+                    <td>【3】</td>
                     <td>
                         <?php
-                        radioCreate("2-1");
+                        radioCreate("3");
                         ?>
                     </td>
                 </tr>
                 <tr>
-                    <td>【2】</td>
+                    <td>【4】</td>
                     <td>
                         <?php
-                        radioCreate("2-2");
+                        radioCreate("4");
                         ?>
                     </td>
                 </tr>
             </table>
         </div>
-        <a class="nav-link-left contact" href="#1_1" class=""><p>前へ</p></a>
-        <a class="nav-link-right contact" href="#1_3" class=""><p>次へ</p></a>
+        <a class="nav-link-left contact" href="#1_1"><p>前へ</p></a>
+        <a class="nav-link-right contact" href="#1_3"><p>次へ</p></a>
     </div>
     <br>
     <br>
@@ -126,33 +132,56 @@
         <h1>平方完成No.1</h1>
         <p style="font-size: 18px;">次の2次関数を平方関数せよ。</p><br>
         <p style="padding:0 0 0 37px;">(3)</p>
-        <p>$$\begin{array}{rcl}y &=& x^{2}+4x-1 \\
-            &=& (x+\fbox{ 1 })^{2}-\fbox{ 2 } \end{array}$$
+        <p>
+        $$\begin{array}{rcl}y &=& 2x^{2}-3x+4 \\
+            &=& 2(x-\displaystyle \frac{\fbox{ 5 }}{\fbox{ 6 }})^{2}+\frac{\fbox{ 7 | 8 }}{\fbox{ 9 }} \end{array}$$
         </p>
-        <br>
-        <br>
         <div style="width: 550px; margin: 88px auto;">
             <table>
                 <tr>
-                    <td>【1】</td>
+                    <td>【5】</td>
                     <td>
                         <?php
-                        radioCreate("3-1");
+                        radioCreate("5");
                         ?>
                     </td>
                 </tr>
                 <tr>
-                    <td>【2】</td>
+                    <td>【6】</td>
                     <td>
                         <?php
-                        radioCreate("3-2");
+                        radioCreate("6");
+                        ?>
+                    </td>
+                </tr>
+                <tr>
+                    <td>【7】</td>
+                    <td>
+                        <?php
+                        radioCreate("7");
+                        ?>
+                    </td>
+                </tr>
+                <tr>
+                    <td>【8】</td>
+                    <td>
+                        <?php
+                        radioCreate("8");
+                        ?>
+                    </td>
+                </tr>
+                <tr>
+                    <td>【9】</td>
+                    <td>
+                        <?php
+                        radioCreate("9");
                         ?>
                     </td>
                 </tr>
             </table>
         </div>
-        <a class="nav-link-left contact" href="#1_2" class=""><p>前へ</p></a>
-        <a class="nav-link-right contact" href="#1_4" class=""><p>次へ</p></a>
+        <a class="nav-link-left contact" href="#1_2"><p>前へ</p></a>
+        <a class="nav-link-right contact" href="#1_4"><p>次へ</p></a>
     </div>
     <br>
     <br>
@@ -162,33 +191,49 @@
         <h1>平方完成No.1</h1>
         <p style="font-size: 18px;">次の2次関数を平方関数せよ。</p><br>
         <p style="padding:0 0 0 37px;">(4)</p>
-        <p>$$\begin{array}{rcl}y &=& x^{2}+4x-1 \\
-            &=& (x+\fbox{ 1 })^{2}-\fbox{ 2 } \end{array}$$
+        <p>
+        $$\begin{array}{rcl}y &=& -3x^{2}+3x+1 \\
+            &=& -3(x-\displaystyle \frac{\fbox{ 10 }}{\fbox{ 11 }})^{2}+\frac{\fbox{ 12 }}{\fbox{ 13 }} \end{array}$$
         </p>
-        <br>
         <br>
         <div style="width: 550px; margin: 88px auto;">
             <table>
                 <tr>
-                    <td>【1】</td>
+                    <td>【10】</td>
                     <td>
                         <?php
-                        radioCreate("4-1");
+                        radioCreate("10");
                         ?>
                     </td>
                 </tr>
                 <tr>
-                    <td>【2】</td>
+                    <td>【11】</td>
                     <td>
                         <?php
-                        radioCreate("4-2");
+                        radioCreate("11");
+                        ?>
+                    </td>
+                </tr>
+                <tr>
+                    <td>【12】</td>
+                    <td>
+                        <?php
+                        radioCreate("12");
+                        ?>
+                    </td>
+                </tr>
+                <tr>
+                    <td>【13】</td>
+                    <td>
+                        <?php
+                        radioCreate("13");
                         ?>
                     </td>
                 </tr>
             </table>
         </div>
-        <a class="nav-link-left contact" href="#1_3" class=""><p>前へ</p></a>
-        <a class="nav-link-right contact" href="#1_5" class=""><p>次へ</p></a>
+        <a class="nav-link-left contact" href="#1_3"><p>前へ</p></a>
+        <a class="nav-link-right contact" href="#1_5"><p>次へ</p></a>
     </div>
     <br>
     <br>
@@ -198,34 +243,40 @@
         <h1>平方完成No.1</h1>
         <p style="font-size: 18px;">次の2次関数を平方関数せよ。</p><br>
         <p style="padding:0 0 0 37px;">(5)</p>
-        <p>$$\begin{array}{rcl}y &=& x^{2}+4x-1 \\
-            &=& (x+\fbox{ 1 })^{2}-\fbox{ 2 } \end{array}$$
+        <p>
+        $$\begin{array}{rcl}y &=& \displaystyle \frac{1}{2}x^{2}+x-\frac{1}{4} \\
+            &=& \displaystyle \frac{1}{2}(x+\fbox{ 14 })^{2}-\frac{\fbox{ 15 }}{\fbox{ 16 }} \end{array}$$
         </p>
-        <br>
-        <br>
         <div style="width: 550px; margin: 88px auto;">
             <table>
                 <tr>
-                    <td>【1】</td>
+                    <td>【14】</td>
                     <td>
                         <?php
-                        radioCreate("5-1");
+                        radioCreate("14");
                         ?>
                     </td>
                 </tr>
                 <tr>
-                    <td>【2】</td>
+                    <td>【15】</td>
                     <td>
                         <?php
-                        radioCreate("5-2");
+                        radioCreate("15");
+                        ?>
+                    </td>
+                </tr>
+                <tr>
+                    <td>【16】</td>
+                    <td>
+                        <?php
+                        radioCreate("16");
                         ?>
                     </td>
                 </tr>
             </table>
         </div>
-        <a class="nav-link-left contact" href="#1_4" class=""><p>前へ</p></a>
+        <a class="nav-link-left contact" href="#1_4"><p>前へ</p></a>
         <button class="submit-button" type="submit" value="">採点</button>
-
     </div>
     </form>
 </div><!-- view_field -->
@@ -251,8 +302,8 @@ $(function(){
 <?php
 function radioCreate($name) {
     for ($i=0; $i < 10; $i++) {
-        echo $i."\n";
         echo "<input type='radio' name=$name value='$i'>";
+        echo $i."\n";
     }
 }
 ?>

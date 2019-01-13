@@ -7,7 +7,7 @@
 </head>
 <body>
 <h1>平方完成No.1</h1>
-<a href="No1_1.php">問題を解く</a>
-<a href="index.html">戻る</a>
+<a href="No1.php">問題を解く</a>
+<a href="index.php">戻る</a>
 </body>
 </html>

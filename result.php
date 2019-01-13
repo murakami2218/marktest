@@ -8,14 +8,20 @@
 <body>
 <h1>成績</h1>
 <?php
-$name1_1 = $_POST["1-1"];
-$name1_2 = $_POST["1-2"];
-$name2_1 = $_POST["2-1"];
-$name2_2 = $_POST["2-2"];
-
-$name1 = $name1_1 + $name1_2;
-$name2 = $name2_1 + $name2_2;
-echo $name1 + $name2;
+for ($i=1; $i<17; $i++) {
+    ${"value_".$i} = $_POST[$i];
+    var_dump(${"value_".$i});
+}
+$total = 0;
+// 問１の採点
+if ($value_1 == 2 && $value_2 == 5) {
+    $total += 20;
+}
+// 問２の採点
+if ($value_3 == 1 && $value_4 == 1) {
+    $total += 20;
+}
+echo $total;
 ?>
 </body>
 </html>
