@@ -42,6 +42,7 @@ if ($value_14 == 1 && $value_15 == 3 && $value_16 == 4) {
 } else {
     $ans_5 = 0;
 }
+// 合計得点の計算と得点の表示
 $total = 0;
 for ($i=1; $i<6; $i++) {
     $total += ${"ans_".$i};
@@ -56,5 +57,6 @@ $total = str_replace(" ", "&nbsp;&nbsp;", str_pad($total, 3, " ", STR_PAD_LEFT))
 echo "<br>";
 echo "合計 {$total}&nbsp;点";
 ?>
+<a href="index.php">戻る</a>
 </body>
 </html>
