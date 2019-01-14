@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>数学摩天楼</title>
-    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js" type="text/javascript">    
+    <script src="//cdn.mathjax.org/mathjax/latest/MathJax.js" type="text/javascript">    
         MathJax.Hub.Config({
             HTML: ["input/TeX","output/HTML-CSS"],
             TeX: {
