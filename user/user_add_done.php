@@ -54,6 +54,6 @@ try {
     exit();
 }
 ?>
-<a href="../index.php">ログイン画面へ</a>
+<a href="../user_login/user_login.html">ログイン画面へ</a>
 </body>
 </html>
