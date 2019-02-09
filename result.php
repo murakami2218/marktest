@@ -70,9 +70,9 @@ for ($i=1; $i<6; $i++) {
 echo "<br>";
 echo "合計 {$total}&nbsp;点";
 $completion = '';
-if ($total >= 80) {
-    $comletion = '合格';
-} else if ($total < 80) {
+if ($total >= 60) {
+    $completion = '合格';
+} else if ($total < 60) {
     $completion = '不合格';
 }
 echo "<br>";
