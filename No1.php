@@ -1,3 +1,17 @@
+<?php
+session_start();
+session_regenerate_id(true);
+if (isset($_SESSION['login']) == false) {
+    print 'ログインされていません。<br>';
+    print '<a href="user_login/user_login.html">ログイン画面へ</a>';
+    exit();
+} else {
+    print $_SESSION['nickname'];
+    print 'さん、解答中(*^_^*)<br>';
+    print '<br>';
+}
+?>
+
 <html lang="ja">
 <head>
     <meta charset="utf-8">

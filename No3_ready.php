@@ -1,3 +1,17 @@
+<?php
+session_start();
+session_regenerate_id(true);
+if (isset($_SESSION['login']) == false) {
+    print 'ログインされていません。<br>';
+    print '<a href="user_login/user_login.html">ログイン画面へ</a>';
+    exit();
+} else {
+    print $_SESSION['nickname'];
+    print 'さんログイン中<br>';
+    print '<br>';
+}
+?>
+
 <!DOCTYPE html>
 <html　lang="ja">
 <head>
@@ -8,6 +22,6 @@
 <body>
 <h1>平方完成No.3</h1>
 <a href="No3_1.php">問題を解く</a>
-<a href="index.html">戻る</a>
+<a href="index.php">戻る</a>
 </body>
 </html>
